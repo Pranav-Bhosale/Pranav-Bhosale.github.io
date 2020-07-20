@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title> I'm Pranav Bhosale</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="images\favicon.png">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Damion&family=Finger+Paint&family=Oswald:wght@600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+  <body>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <script>
+    var mybutton = document.getElementById("myBtn");
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+  if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+    <section id="nav">
+      <div class="container-fluid">
+
+
+          <!-- Nav Bar -->
+          <nav class="navbar sticky-top navbar-expand-md navbar-light ">
+            <img src="images\boy.png"  width="50" height="50" alt="">
+            <a class="navbar-brand" href="">Pranav Bhosale</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse "    id="navbarNavAltMarkup">
+              <div class="navbar-nav ml-auto">
+                <a class=" nav-link " href="#about">About Me<span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="#hobby">Hobbies and Interests</a>
+                <a class="nav-link" href="#projects">Projects</a>
+                <a class="nav-link" href="#contact">Contact</a>
+              </div>
+            </div>
+          </nav>
+</section>
+
+      <div class="container-fluid">
+
+        <img src="images\welcome.png " class="welcome"   alt="">
+      </div>
+
+    <section class="aboutme" id="about">
+      <div class="container-fluid ">
+          <img src="images\image (1).png" class="abtimg" alt="">
+      </div>
+      <div class="container-fluid aboutme">
+          <h3 class="tagline">Good Better Best....Never Let It Rest</h3>
+            <h2>Hii</h2>
+            <p class="abtp">I'm a TECH enthusiast and programmer currently studing at <a href="http://www.walchandsangli.ac.in/">Walchand College Of engineering, Sangli</a>
+            pursuing B.Tech in Information Technology.My growing curiosity towards AI&Ml is bringing me one step closer to new technology.
+             I am also a budding  web developer and competitive programmer too.  </p>
+        </div>
+    </section>
+    <section id="hobby">
+      <div class="container-fluid hobbies">
+        <h2>Hobbies and Interests</h2>
+      </div>
+      <div class="row">
+         <div class="col-md-6">
+           <img src="images\photographer.png" class="photographyimg" alt="">
+         </div>
+         <div class="col-md-6">
+           <h3 class="h3nature"> Nature Photography</h3>
+           <p class="pnature">I love to be in nature and admire the beauty by travelling to nearby places,that is from where I developed interest in photography.
+           The colors of nature and beauty brings the mind to peace. Have a look at some of my captured photos</p>
+
+             <a class="btn btn-primary" href="photos.html">Photos</a>
+
+          </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+           <h3 class="h3poems">Poems and Story Writing</h3>
+             <p class="ppoems">Sometimes in leisue time,I attempt to write or compsose someting.
+             Currently I am working on  a suspense and adventurous story! Here are some of my compositions </p>
+
+              <a class="btn btn-primary" href="compositions.html">Compositions</a>
+
+        </div>
+        <div class="col-md-6">
+          <img src="images\writer.png" class="writer" alt="">
+        </div>
+     </div>
+    </section>
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <img src="images\underconstruction.png" class="construction" alt="">
+        </div>
+        <div class="col-md-6">
+          <h3 class="h3project">Under Construction</h3>
+        </div>
+    </section>
+    <section id="contact">
+      <h2 class="h2contact">Contact ME</h2>
+      <div class="row">
+        <div class="col-md-4 ">
+          <a href="https://www.facebook.com/pranav.bhosale.1804109"><i class="fab mn fa-facebook fa-2x"></i></a>
+        </div>
+        <div class="col-md-4 ">
+           <a href="https://www.instagram.com/_pranav_bhosale/"><i class="fab mn fa-instagram fa-2x"></i></a>
+
+        </div>
+        <div class="col-md-4 ">
+          <a href="https://www.linkedin.com/in/pranav-bhosale/"><i class="fab mn fa-linkedin fa-2x" aria-hidden="true"></i></a>
+        </div>
+
+
+      </div>
+
+    </section>
+    <footer>
+      <p>© Pranav Bhosale||All Rights Reserved</p>
+    </footer>
+  </body>
+</html>
